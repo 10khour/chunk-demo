@@ -1,24 +1,15 @@
 # chunk-demo
 
-## Project setup
+# 编译
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
+yarn
 yarn build
+go build
 ```
+启动
+```
+./chunk-demo
+```
+页面地址 http://localhost:8080/
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![demo](./demo.gif)
